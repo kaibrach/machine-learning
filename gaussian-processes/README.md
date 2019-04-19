@@ -5,7 +5,7 @@ which prevents `ipywidgets` from working as currently written but you can run it
 
 [Run in Google Colab](https://colab.research.google.com/github/kaibrach/machine-learning/blob/master/gaussian-processes/gaussian_processes.ipynb)
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/kaibrach/machine-learning/master?urlpath=https%3A%2F%2Fgithub.com%2Fkaibrach%2Fmachine-learning%2Fblob%2Fmaster%2Fgaussian-processes%2Fgaussian_processes.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/kaibrach/machine-learning/master)
 
 
 A Binder-compatible repo with an `environment.yml` file.
