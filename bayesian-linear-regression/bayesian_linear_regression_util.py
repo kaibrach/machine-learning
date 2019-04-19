@@ -24,13 +24,13 @@ def plot_truth(x, y, label='Truth'):
     plt.plot(x, y, 'g--', label=label)
 
 
-def plot_predictive(x, y, std, y_label='Prediction', std_label='1σ Uncertainty', plot_xy_labels=True, plot_uncertainty=True):
+def plot_predictive(x, y, std, y_label='Prediction', std_label='2σ Uncertainty', plot_xy_labels=True, plot_uncertainty=True):
     y = y.ravel()
-    uncertainty =np.sqrt(std.ravel())
+    uncertainty =1.96 * np.sqrt(std.ravel())
 
     plt.plot(x, y, label=y_label)
     if plot_uncertainty:
-        plt.fill_between(x.ravel(), y + uncertainty, y - uncertainty, alpha = 0.3, label=std_label)
+        plt.fill_between(x.ravel(), y + uncertainty, y - uncertainty, alpha = 0.1, label=std_label)
 
     if plot_xy_labels:
         plt.xlabel('x')
