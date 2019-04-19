@@ -33,6 +33,7 @@ Confirmed Mac-OSX-specific packages that should be removed are:
     libcxx=4.0.1
 
 Confirmed Windows-specific packages that should be removed are:
+
     m2w64-gcc-libgfortran=5.3.0
     m2w64-gcc-libs=5.3.0
     m2w64-gcc-libs-core=5.3.0
