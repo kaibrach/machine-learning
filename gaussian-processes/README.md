@@ -3,7 +3,7 @@ The notebook contains an Interactive-Hyperparameter-Playground based on `ipywidg
 Unfortunately it is not possible to run this widget in Google Colab because  Google Colab has a different security model 
 which prevents `ipywidgets` from working as currently written but you can run it with [Binder](https://mybinder.org/).
 
-[Run in Google Colab](https://colab.research.google.com/github/kaibrach/machine-learning/blob/master/gaussian-processes/gaussian_processes.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/kaibrach/machine-learning/blob/master/gaussian-processes/gaussian_processes.ipynb)
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/kaibrach/machine-learning/master)
 
